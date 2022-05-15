@@ -5,6 +5,7 @@ import { colors } from './src/utils/colors';
 import { Focus } from './src/features/Focus';
 import { Timer } from './src/features/Timer';
 
+
 export default function App() {
   const [currentSubject, setCurrentSubject] = useState(null);
   return (
